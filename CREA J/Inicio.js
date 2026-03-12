@@ -8,14 +8,12 @@ function guardar () {
       if (acc_name === "" || acc_pass === "") {
                 alert("Todos los campos son obligatorios");
             } else {
-                let persona = {
-                    nombre: nombre,
-                    apellido: apellido,
-                    edad: edad,
-                    placa: placa,
-                    marca: marca,
-                    modelo: modelo,
+                let cuenta = {
+                   acc_name: acc_name,
+                   acc_pass: acc_pass, 
                 };
-
+            cuenta.push(cuenta);
+            limpiar();
+            mostrar();
             }
-    }
+}
